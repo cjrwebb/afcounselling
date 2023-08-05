@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AF Counselling</title>
+<link rel="Shortcut Icon" href="img/favicon.ico" >
+
+<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="m.style.css" type="text/css" media="screen" />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
+
+<script src="js/modernizr.js"></script>
+<script src="js/respond.min.js"></script>
+
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+
+<script src="js/prefixfree.min.js"></script>
+
+
+<!--[if lt IE 9]>
+        <style>
+        header
+        {
+                margin: 0 auto 20px auto;
+        }
+        #four_columns .img-item figure span.thumb-screen
+        {
+            display:none;
+        }
+    </style>
+<![endif]-->
+
+<style type="text/css">
+<!--
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+-->
+</style>
+
+<script>
+$(function() {
+  $('#slides').slidesjs({
+        height: 235,
+        navigation: false,
+        pagination: false,
+        effect: {
+          fade: {
+                speed: 50000
+          }
+        },
+        callback: {
+                start: function(number)
+                {
+                        $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                },
+                complete: function(number)
+                {
+                        $("#slider_content" + number).delay(500).fadeIn(1000);
+                }
+        },
+        play: {
+                active: false,
+                auto: true,
+                interval: 7000,
+                pauseOnHover: false
+        }
+  });
+});
+$(document).ready(function() {
+     // Show or hide the sticky footer button
+     $(window).scroll(function() {
+     if ($(this).scrollTop() > 200) {
+      $('.go-top').fadeIn(200);
+     } else {
+      $('.go-top').fadeOut(200);
+     }
+     });
+
+     // Animate the scroll to top
+     $('.go-top').click(function(event) {
+     event.preventDefault();
+
+     $('html, body').animate({scrollTop: 0}, 300);
+     })
+});
+</script>
+
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+</head>
+
+<body>
+<header>
+<img src="img/logo.png" alt="af counselling">
+        <nav>
+            <h2 class="hidden">Our navigation</h2>
+            <ul>
+                <li>	<p> &nbsp; </p> 	<p> &nbsp; </p> 	<p> &nbsp; </p> <a href="mailto:amanda@afcounselling.co.uk?Subject=Website%20Enquiry" target="_top">contact: amanda@afcounselling.co.uk</a> OR CALL <font color=#660000>07939 248 427</font></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="boxcontent">
+<h2 class="hidden">Adipiscing</h2>
+<article>
+ <h3>Consultations</h3>
+        <p>
+            We feel that it's important for you to have a chance to talk with your potential therapist before making the decision to undertake any kind of therapy so you can get specialist advice around the problems you're facing, find out what kind of approaches the therapist would take and help you make an informed decision about how you wish to go forward. </p> 
+	<p> &nbsp; </p> 
+	<p> This is why we offer one-off sessions at a rate of &#163;45 for an extended hour and a half consultation, to allow ample time to begin to explore your issues and answer the questions you might have.</p>
+    </article>
+<article>
+ <h3>Counselling</h3>
+        <p>
+           We are transparent about our fees, and will try to offer a fixed price agreement per session during our initial consultation. As part of our community ethos we currently offer two low-cost places to people who meet our selection process.
+	</p>
+	<p> &nbsp; </p>
+	<p>
+	The cost per counselling session is usually &#163;60. <p> &nbsp; </p> <p> We are also open to discussing corporate contracts where a retainer can be paid to keep counselling spaces open for your employees. <a href="mailto:amanda@afcounselling.co.uk?Subject=Website%20Enquiry" target="_top"> Please contact Amanda for more details. </a>
+        </p>
+    </article>
+<article>
+ <h3>Locations</h3>
+        <p>
+            We want to make sure our counselling sessions are accessible, welcoming, and convenient. 
+	</p>
+	<p> &nbsp; </p>
+	<p>
+            We offer counselling and therapy in person, over the phone, or in online video calls. You can find the availability of different types of counselling sessions on my <a href="http://www.itsgoodtotalk.org.uk/therapists/in/b55590/yorks-south/harthill/amanda-michele-france" target="_blank">British Association for Counselling and Psychotherapy page</a>. 
+        </p>
+	<p> &nbsp; </p>
+    </article>
+<br class="clear"/></section>
+
+
+<section id="text_columns">
+<h2 class="hidden">Blindtext</h2>
+<article class="column1">
+<h3>
+About Amanda</h3>
+<p>I am a registered and fully accredited member of the <a href="http://www.itsgoodtotalk.org.uk/therapists/in/b55590/yorks-south/harthill/amanda-michele-france" target="_blank">British Association for Counselling and Psychotherapy (BACP)</a> and have had extensive experience providing counselling services in both a private capacity and while working for a mental health charity and have helped clients facing a wide range of challenges in their life. </p>
+	<p> &nbsp; </p>
+<p>It is such an enormous step to take when recognising you may need counselling and it can seem a daunting task to find the right person to turn to. I aim to try to make this process as clear and accessible as I can.
+I believe that by building a foundation of warmth and trust, this therapeutic relationship we form, enables you to share your difficulties. My intention is that by offering an accepting, safe and containing environment for you, we can work towards positive outcomes and a sense of well being.</p>
+	<p> &nbsp; </p>
+<p><a href="mailto:amanda@afcounselling.co.uk?Subject=Website%20Enquiry" target="_top"> <u>Click here to contact me</u></a> or call me on <font color=#660000>07939 248 427</font></p> 
+</article>
+<section class="column2">
+<h3 class="hidden">Lorem Impsum</h3>
+<article class="row">
+<h4 class="hidden">Dolor sit</h4>
+<article class="row">
+<h4 class="hidden">Ipsum</h4>
+</article></section></section>
+
+<footer>
+<h2 class="hidden">Our footer</h2>
+<section id="copyright">
+<h3 class="hidden">Copyright notice</h3>
+</section>
+<section class="wrapper">
+<h3 class="hidden">Footer content</h3>
+<article class="column">
+<h4>Copyright and other information</h4>
+This website was created based almost entirely on resources generously provided for commercial use by <a href="http://www.lingulo.com/about">Christoph Anastasiades</a> of <a href="http://www.lingulo.com">Lingulo.com</a> and is maintained by <a href="mailto:c.j.rablin@googlemail.com?Subject=Website%20Enquiry" target="_top">Calum Webb</a>. </article>
+</section></footer>
